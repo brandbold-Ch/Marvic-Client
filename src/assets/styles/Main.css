@@ -1,0 +1,19 @@
+.landing-page-root {
+  background-color: #009688; /* Color de fondo turquesa */
+  color: #ffffff; /* Color de texto blanco */
+  padding: 32px; /* Equivalente a 4 * theme.spacing(4) */
+}
+
+.landing-page-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.landing-page-footer {
+  background-color: #424242; /* Color del footer */
+  color: #ffffff; /* Color del texto del footer */
+  padding: 16px; /* Equivalente a 2 * theme.spacing(2) */
+  text-align: center;
+  margin-top: 32px; /* Equivalente a 4 * theme.spacing(4) */
+}

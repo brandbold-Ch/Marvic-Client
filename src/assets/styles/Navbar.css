@@ -1,0 +1,31 @@
+.navbar-logo {
+    width: 65px;
+    height: auto;
+  }
+  
+.navbar-title {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-links {
+    display: flex;
+    gap: 0px;
+    margin-right: auto;
+}
+  
+.navbar-auth {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-auth .register {
+    background-color: rgb(2, 167, 161);
+}
+  
+.navbar {
+    background-color: white !important;
+    box-shadow: none !important;
+}
+  
