@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <div>
-            <div>
-                <p>Desaarrollado por brandbold</p>
-            </div>
-        </div>
+        <>
+            <footer className="bg-black">
+                <p className="text-light">Desaarrollado por brandbold</p>
+            </footer>
+        </>
     )
 }
 
