@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-const Contactanos = () => {
+const Appointments = () => {
   return (
     <>
     <Layout>
@@ -11,4 +11,4 @@ const Contactanos = () => {
   )
 }
 
-export default Contactanos
+export default Appointments;

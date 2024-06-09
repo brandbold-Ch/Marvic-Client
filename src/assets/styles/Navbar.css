@@ -23,9 +23,12 @@
 .navbar-auth .register {
     background-color: rgb(2, 167, 161);
 }
-  
-.navbar {
-    background-color: white !important;
-    box-shadow: none !important;
+
+.singup-button {
+    background-color: #02A7A1;
+    color: #FFFFFF;
+    border-color: #02A7A1;
+    border-radius: 5px;
+    padding: 3px;
 }
   

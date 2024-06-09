@@ -1,5 +1,6 @@
 import Footer from "./Footer"
 import Navbar from "./Navbar"
+import React from "react"
 
 
 const Layout = ({ children }) => {
@@ -9,8 +10,14 @@ const Layout = ({ children }) => {
         <header>
             <Navbar/>
         </header>
-        <main className="flex-grow-1 d-flex justify-content-center align-itmes-center"> 
-            { children }
+        <main className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+          {
+            React.Children.map(children, (child, index) => (
+              <div key={index} className="mb-4">
+                {child}
+              </div>
+            ))
+          }
         </main>
         <footer className="mt-auto">
             <Footer/>
@@ -20,4 +27,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default Layout;
