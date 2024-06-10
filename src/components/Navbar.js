@@ -18,22 +18,22 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link text-black" aria-current="page" to="aboutus" smooth={true} duration={50} offset={-50}>
+                <Link className="nav-link text-black user-select-none custom-link" aria-current="page" to="aboutus" smooth={true} duration={50} offset={-50}>
                   Inicio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-black" to="services" smooth={true} duration={50} offset={-40}>
+                <Link className="nav-link text-black user-select-none custom-link" to="services" smooth={true} duration={50} offset={-30}>
                   Servicios
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-black" to="appointments" smooth={true} duration={50} offset={-40}>
+                <Link className="nav-link text-black user-select-none custom-link" to="appointments" smooth={true} duration={50} offset={-0}>
                   Citas
                 </Link>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link text-black" to="login">
+                <NavLink className="nav-link text-black user-select-none custom-link" to="login">
                   Iniciar sesión
                 </NavLink>
               </li>

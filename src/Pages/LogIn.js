@@ -1,5 +1,7 @@
 import React from 'react';
 import Logo from '../assets/images/marvic_logo.png';
+import Footer from '../components/Footer';
+
 
 const Login = () => {
   return (
@@ -9,7 +11,7 @@ const Login = () => {
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-12 col-md-8 col-lg-6 col-xl-5">
 
-              <div className="card" style={{ borderRadius: '1rem', backgroundColor: '#02A7A1' }}>
+              <div className="card" style={{ borderRadius: '1rem', backgroundColor: '#7895D6' }}>
                 <div className="card-body p-4 text-center">
 
                   <div className="mb-md-3 mt-md-2 pb-3">
@@ -31,20 +33,18 @@ const Login = () => {
                     <p className="small mb-3 pb-lg-1"><a className="text-white-50" href="#!">Olvidaste tu contraseña?</a></p>
 
                     <button className="login-button" type="submit">Login</button>
-
                   </div>
-
                   <div>
                     <p className="mb-0">No tienes una cuenta? <a href="#!" className="text-white-50 fw-bold">crear una</a>
                     </p>
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }
