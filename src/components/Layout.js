@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <header>
             <Navbar/>
         </header>
-        <main className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+        <main>
           {
             React.Children.map(children, (child, index) => (
               <div key={index} className="mb-4">

@@ -3,20 +3,19 @@ import "./assets/styles/Navbar.css";
 import Index from "./Pages/Index";
 import Services from "./Pages/Services";
 import Appointments from "./Pages/Appointments";
-import LogIn from "./Pages/LogIn";
 import SingUp from "./Pages/SingUp";
 import { BrowserRouter } from "react-router-dom";
 import NotFound from "./Pages/NotFound";
+import Login from "./Pages/Login";
+import AboutUs from "./Pages/AboutUs";
 
 
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: "/", element: <Index /> },
-    { path: "/servicios", element: <Services /> },
-    { path: "/citas", element: <Appointments /> },
-    { path: "/login", element: <LogIn /> },
     { path: "/singup", element: <SingUp /> },
-    { path: "/notFound", element: <NotFound /> }
+    { path: "/notFound", element: <NotFound /> },
+    { path: "/login", element: <Login /> }
   ])
   return routes
 }
